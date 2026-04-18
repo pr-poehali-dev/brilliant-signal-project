@@ -27,11 +27,14 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ДОСТИГАЙ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Новые высоты — не метафора. Это ежедневный выбор тех, кто движется вперёд.
         </p>
+        <button className="mt-10 px-8 py-3 border border-white text-white uppercase text-sm tracking-widest hover:bg-white hover:text-black transition-all duration-300">
+          Начать путь
+        </button>
       </div>
     </div>
   );
