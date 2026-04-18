@@ -25,15 +25,16 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ДОСТИГАЙ
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-sm uppercase tracking-widest mb-4 opacity-75">Электронный буклет-памятка</p>
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight max-w-4xl mx-auto">
+          КАК ПРИНИМАТЬ РЕШЕНИЯ В УСЛОВИЯХ ДЕДЛАЙНА
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Новые высоты — не метафора. Это ежедневный выбор тех, кто движется вперёд.
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
+          5 шагов к спокойствию и результату — даже когда времени почти не осталось
         </p>
         <button className="mt-10 px-8 py-3 border border-white text-white uppercase text-sm tracking-widest hover:bg-white hover:text-black transition-all duration-300">
-          Начать путь
+          Получить буклет
         </button>
       </div>
     </div>

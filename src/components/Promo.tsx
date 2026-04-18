@@ -26,13 +26,18 @@ export default function Promo() {
       </div>
 
       <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Твой момент
+        Антистресс
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Не жди идеального момента. Создавай его сам — каждым решением, каждым действием,
-        каждым днём, когда ты выбираешь двигаться вперёд, а не стоять на месте.
-      </p>
+      <div className="absolute bottom-12 right-6 z-10 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl text-right">
+        <p className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
+          Дыхание «4–7–8»: вдох 4 сек, задержка 7, выдох 8.
+        </p>
+        <p className="text-white text-sm sm:text-base opacity-80 leading-relaxed">
+          Один цикл — и уровень стресса снижается. Тело успокаивается, голова проясняется.
+          Это не магия — это физиология.
+        </p>
+      </div>
     </div>
   );
 }
